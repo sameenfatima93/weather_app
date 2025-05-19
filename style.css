@@ -23,11 +23,14 @@ body {
 .search {
     width: 100%;
     display: flex;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
 }
 
 .search input {
+    display: flex;
+    flex-wrap: nowrap;
     border: 0;
     outline: 0;
     background: #ebfffc;
@@ -110,3 +113,123 @@ button img {
     font-size: 24px;
     margin-top: -6px;
 }
+@media only screen and (max-width: 450px) {
+  .card {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .search input {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .search button {
+    width: 35px;
+    height: 35px;
+    margin-left: 8px;
+  }
+
+  .weather h1.temp {
+    font-size: 30px;
+  }
+
+  .weather h2.city {
+    font-size: 20px;
+  }
+
+  .details {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .col img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+ @media (max-width: 472px){ 
+    /* .search {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items:left;
+    justify-content: left;
+} */
+  .search-btn{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    cursor:pointer ;
+}
+.search input {
+    display: flex;
+    flex-wrap: nowrap;
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 15px;
+    height: 45px;
+    border-radius: 25px; 
+    /* flex: 1; */
+     margin-right: 10px;
+    font-size: 18px;
+}
+.wt-icon {
+    width: 150px;
+    margin-top: 30px;
+}
+.humedity,
+.wind {
+    font-size: 20px;
+    margin-top: -6px;
+}
+}  
+
+ @media (max-width: 375px){ 
+  .search-btn{
+    flex-wrap:wrap;
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor:pointer ;
+}
+.search input {
+    display: flex;
+    flex-wrap: nowrap;
+    border: 0;
+    outline: 0;
+    background: #ebfffc; 
+    color: #555;
+    padding: 10px 15px;
+    height: 40px;
+    border-radius: 25px;
+    /* flex: 1; */
+     margin-right: 10px;
+    font-size: 18px;
+} 
+.wt-icon {
+    width: 120px;
+    margin-top: 30px;
+}
+.humedity,
+.wind {
+    font-size: 20px;
+    margin-top: -6px;
+}  }  
+
+ 
