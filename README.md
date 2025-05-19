@@ -7,8 +7,7 @@ This is a simple and clean weather app built using HTML, CSS, and JavaScript. It
 👉 [View Live App](https://capable-longma-8c587c.netlify.app)
 
 ## 📸 Preview
-
-![Weather App Screenshot](./screenshot.png)
+[view loom recording](https://www.loom.com/share/9640ab669ee643c9bdb453d0a34da467?sid=ca5f1bf3-1468-4548-81ca-5254d50aac2e)
 
 ## ✨ Features
 
